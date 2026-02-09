@@ -1,57 +1,43 @@
 Voice Emotion Analysis Dashboard
 
-This project is a web-based application that analyzes voice recordings and shows how emotions change over time. The main idea is to understand what emotion is expressed in the audio and at which exact time (minute and second) it occurs. The results are shown in a simple and interactive dashboard.
+The Voice Emotion Analysis Dashboard is a web-based application that analyzes voice recordings and visualizes how emotions change over time.
+The goal of this project is to identify what emotion is present in an audio recording and exactly when it occurs (minute and second), and present the results through a clean, interactive dashboard.
+This project combines audio processing, data analysis, and visualization to demonstrate a practical AI/ML use case.
 
-What this application does
+ Live Demo
 
-The user uploads a voice or audio file in WAV format.  
-The audio is broken into small time segments.  
-Each segment is analyzed to understand emotional patterns in the voice.  
-The detected emotions are mapped to timestamps.  
-Charts and tables display how emotions change throughout the audio.
+Try the live application here:
+https://voice-emotion-analysis-dashboard-dqshcrdfyswubibcm2bkbs.streamlit.app/
 
-Key features:
+What the application does:
 
-Upload voice recordings easily  
-Detect emotions from audio  
-Track emotion changes over time  
-View results on a visual dashboard  
-Clear timestamp-based emotion analysis  
-Deployed as a live web application
+Allows users to upload a voice or audio file in WAV format
+Splits the audio into small time segments
+Analyzes each segment to detect emotional patterns in the voice
+Maps detected emotions to precise timestamps
+Displays emotion changes using interactive charts and tables
 
-Technologies used:
+Key Features:
 
-Python  
-Streamlit for the web interface  
-Librosa for audio processing  
-NumPy and Pandas for data handling  
-Matplotlib for charts and visualization
+Easy audio upload
+Emotion detection from voice recordings
+Timestamp-based emotion tracking
+Interactive and visual dashboard
+Clear representation of emotion changes over time
+Deployed as a live web application using Streamlit Cloud
 
-How to run this project locally
+Technologies Used:
+ 
+Python
+Streamlit – Web application framework
+Librosa – Audio processing and feature extraction
+NumPy & Pandas – Data handling and analysis
+Matplotlib – Data visualization 
 
-Install the required libraries using the requirements file.  
-Run the Streamlit application using the command below.
 
-pip install -r requirements.txt  
-streamlit run app.py  
+👤 Author
 
-After running the command, open the browser and go to:  
-http://localhost:8501
-
-Live application
-
-The live deployed version of this project will be added here after deployment.
-
-Use cases
-
-Voice sentiment analysis  
-Call center emotion monitoring  
-Audio-based AI applications  
-Behavioral and emotion analysis projects
-
-Author
-
-Syed Huzaif Ahmed  
+Syed Huzaif Ahmed
 B.Tech Student
-Passionate in Data Analytics, Machine Learning, and AI 
+Passionate about Data Analytics, Machine Learning, and AI
 
