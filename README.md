@@ -34,10 +34,15 @@ Librosa – Audio processing and feature extraction
 NumPy & Pandas – Data handling and analysis
 Matplotlib – Data visualization 
 
+Note: ffmpeg must be installed locally.
+- On Windows, set FFMPEG_PATH in app.py to the location of ffmpeg.exe.
+- On Linux/Cloud, ffmpeg can be installed via system package manager (e.g., apt).
+
 
 👤 Author
 
 Syed Huzaif Ahmed
 B.Tech Student
 Passionate about Data Analytics, Machine Learning, and AI
+
 
